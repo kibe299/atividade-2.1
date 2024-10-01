@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class questao2 {
+  public static void main(String[] args) {
+    
+    int i = 1, num = 0;
+   
+    
+    
+    Scanner entrada = new Scanner(System.in);
+    num = entrada.nextInt();
+    
+    int numfinal = num;
+     
+    
+    for(;i<=numfinal;i++){
+      
+     System.out.print(i + "," + num + "," + num + ",");
+    
+      
+      num++; 
+    }
+    
+    
+  }
+}
